@@ -107,6 +107,48 @@ export interface Metadata {
   tags?: string[]
 
   /**
+   * Neuroimaging modalities used in the study.
+   * @type {string[]}
+   */
+  modalities?: string[]
+
+  /**
+   * Neuroimaging modalities used in the study.
+   * @type {string[]}
+   */
+  tasks?: string[]
+
+  /**
+   * Storage size of the asset in bytes.
+   * @type {string}
+   */
+  size?: string
+
+  /**
+   * Number of files in the asset.
+   * @type {string}
+   */
+  files?: string
+
+  /**
+   * Number of sessions in the asset.
+   * @type {string}
+   */
+  sessions?: string
+
+  /**
+   * Number of subjects in the asset.
+   * @type {string}
+   */
+  participants?: string
+
+  /**
+   * Age of the participants in the asset.
+   * @type {string}
+   */
+  participantsAge?: string
+
+  /**
    * Array of categories associated to the asset. Note: recommended to use tags instead of this.
    * @type {string[]}
    */
